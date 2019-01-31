@@ -8,9 +8,9 @@ fonts {
   style: "normal"
   weight: 400
   filename: "Vollkorn-Regular.ttf"
-  post_script_name: "Vollkorn-Regular"
-  full_name: "Vollkorn Regular"
-  copyright: "Copyright (c) 2010, Friedrich Althausen (http://friedrichalthausen.de post@friedrichalthausen.de). All rights reserved. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  post_script_name: "Vollkorn-Roman"
+  full_name: "Vollkorn Roman"
+  copyright: "Copyright 2017 The Vollkorn Project Authors (https://github.com/FAlthausen/Vollkorn-Typeface)"
 }
 fonts {
   name: "Vollkorn"
@@ -19,25 +19,18 @@ fonts {
   filename: "Vollkorn-Italic.ttf"
   post_script_name: "Vollkorn-Italic"
   full_name: "Vollkorn Italic"
-  copyright: "Copyright (c) 2010, Friedrich Althausen (http://friedrichalthausen.de post@friedrichalthausen.de). All rights reserved. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+  copyright: "Copyright 2017 The Vollkorn Project Authors (https://github.com/FAlthausen/Vollkorn-Typeface)"
 }
-fonts {
-  name: "Vollkorn"
-  style: "normal"
-  weight: 700
-  filename: "Vollkorn-Bold.ttf"
-  post_script_name: "Vollkorn-Bold"
-  full_name: "Vollkorn Bold"
-  copyright: "Copyright (c) 2010, Friedrich Althausen (http://friedrichalthausen.de post@friedrichalthausen.de). All rights reserved. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
-}
-fonts {
-  name: "Vollkorn"
-  style: "italic"
-  weight: 700
-  filename: "Vollkorn-BoldItalic.ttf"
-  post_script_name: "Vollkorn-BoldItalic"
-  full_name: "Vollkorn Bold Italic"
-  copyright: "Copyright (c) 2010, Friedrich Althausen (http://friedrichalthausen.de post@friedrichalthausen.de). All rights reserved. This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
-}
-subsets: "menu"
+subsets: "cyrillic"
+subsets: "cyrillic-ext"
+subsets: "greek"
 subsets: "latin"
+subsets: "latin-ext"
+subsets: "menu"
+subsets: "vietnamese"
+axes {
+  tag: "wght"
+  min_value: 400.0
+  default_value: 400.0
+  max_value: 900.0
+}
