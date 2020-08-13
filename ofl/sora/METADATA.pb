@@ -20,3 +20,7 @@ axes {
   min_value: 100.0
   max_value: 800.0
 }
+source {
+  repository_url: "https://github.com/sora-xor/sora-font.git"
+  commit: "c6b3a178aa3c0fae4c1ca5f6d41b6f45b85d4275"
+}
