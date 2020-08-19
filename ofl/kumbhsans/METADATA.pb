@@ -33,3 +33,7 @@ fonts {
 subsets: "latin"
 subsets: "latin-ext"
 subsets: "menu"
+source {
+  repository_url: "https://github.com/xconsau/KumbhSans.git"
+  commit: "d2e830ac0e831f5b3e2e369a7b71d443a575e803"
+}
